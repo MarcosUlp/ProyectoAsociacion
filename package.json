@@ -1,0 +1,29 @@
+{
+  "name": "proyectoasociacion",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcosUlp/ProyectoAsociacion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcosUlp/ProyectoAsociacion/issues"
+  },
+  "homepage": "https://github.com/MarcosUlp/ProyectoAsociacion#readme",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "multer": "^1.4.5-lts.2",
+    "mysql2": "^3.14.1"
+  }
+}
